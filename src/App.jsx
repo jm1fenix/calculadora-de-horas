@@ -61,8 +61,8 @@ function App() {
         <input type="number" value={mi} onChange={(e) => setMi(e.target.value)} placeholder="Minuto inicial"/><br/>
         <input type="number" value={hf} onChange={(e) => setHf(e.target.value)} placeholder="Hora final"/> &nbsp; : &nbsp;
         <input type="number" value={mf} onChange={(e) => setMf(e.target.value)} placeholder="Minuto final"/><br/><br/>
-        <button onClick={soma()}>Soma</button> 
-        <button onClick={sub()}>Diferença</button>
+        <button onClick={soma}>Soma</button> 
+        <button onClick={sub}>Diferença</button>
         <h3 id="resultado">{resultado}</h3>
     </div>
     
