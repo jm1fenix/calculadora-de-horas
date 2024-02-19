@@ -1,0 +1,36 @@
+body{
+  background-image: linear-gradient(to bottom,rgb(255, 215, 170), rgb(255, 208, 208));
+  height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+  text-align: center;
+}
+.Stevan{
+  text-align: center;
+  border-style: double;
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  background-image: linear-gradient(to bottom,rgb(255, 208, 208), rgb(255, 215, 170));
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input{
+  border-radius: 10px;
+  text-align: center;
+  font-size: medium;
+  width: 130px;
+  height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+  background-color: rgb(228, 140, 140);
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  transition: 0,5s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+  background-color: rgb(128, 9, 9);
+}
